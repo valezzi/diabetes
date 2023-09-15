@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/etec.png" type="image/png" />  
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title> Registro Diabetes </title>
+  </head>
+
+  <body>
+    <section class="cabecalho">
+      <div>
+        <a href="index.html">Controle </a>
+      </div>
+    </section>
+    
+    <form id="form-registro" name="PACIENTE" action="./php/inserir_pac.php" method="post" >
+      <div class="actual-form1">
+
+        <div class="heading">
+          <b class="titulo">INFORME SEUS DADOS</b>
+        </div>
+
+        <div class="input-wrap">
+          <label class="input-label"> Nome: </label>
+          <input name="PACIENTE" type="text" class="input-field" />
+        </div>  
+              
+        <div class="input-wrap">
+          <label class="input-label">Idade:</label>
+          <input name="IDADE" type="number" class="input-field" />
+			  </div>
+
+        <div class="input-wrap">
+          <label class="input-label">Peso:</label>
+          <input name="PESO" type="number" class="input-field" />
+		</div>
+
+        <div class="input-wrap">
+          <label class="input-label">Altura:</label>
+          <input name="ALTURA" type="" class="input-field" />
+		</div>
+		
+		<div class="input-wrap">
+          <label class="input-label">Sexo:</label>
+          <select name="SEXO" type="text" class="input-option">
+            <option value=""></option>
+            <option value="Feminino°">Feminino</option>
+            <option value="Masculino">Masculino</option>
+          </select>
+        </div>
+
+        <div class="btn">
+          <input id="enviar" name="enviar" type="submit"  value="Paciente" class="sign-btn" />
+        </div>
+
+        <div id="mensagem" class="popup">
+          <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+
+    </form>
+    
+	<form id="form-registro" name="MEDICAMENTO" action="./php/inserir_med.php" method="post" >
+      <div class="actual-form2">
+
+        <div class="heading">
+          <b class="titulo">INFORME SEUS MEDICAMENTOS</b>
+        </div>
+
+        <div class="input-wrap">
+          <label class="input-label"> Nome: </label>
+          <input name="MEDICAMENTO" type="text" class="input-field" />
+        </div>  
+              
+        <div class="input-wrap">
+          <label class="input-label">Dosagem:</label>
+          <input name="DOSAGEM" type="number" class="input-field" />
+		</div>
+
+        <div class="input-wrap">
+          <label class="input-label">Tipo:</label>
+          <select name="TIPO" type="text" class="input-option">
+            <option value=""></option>
+            <option value="generico">Generico</option>
+            <option value="manipulado">Manipulado</option>
+			<option value="omeopatico">Omeopático</option>
+          </select>
+        </div>
+
+        <div class="btn">
+		  <input id="enviar" name="enviar" type="submit"  value="Medicamento" class="sign-btn" />
+        </div>
+
+      </div>
+
+    </form>
+	
+  </body>
+
+</html>

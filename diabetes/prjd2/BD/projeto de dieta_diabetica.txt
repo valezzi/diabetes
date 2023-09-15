@@ -1,0 +1,59 @@
+Existem várias opções de carboidratos complexos e integrais que são recomendados para pessoas com diabetes tipo 2. Aqui estão alguns exemplos:
+
+Grãos Integrais: Opte por grãos integrais, como trigo integral, aveia, cevada, quinoa, arroz integral e farinha de trigo integral. Esses grãos são ricos em fibras, o que ajuda a regular os níveis de glicose no sangue.
+
+Legumes: Legumes como lentilhas, feijões, grão-de-bico e ervilhas são ricos em fibras e têm um baixo índice glicêmico. Isso significa que eles são digeridos lentamente, resultando em um aumento gradual nos níveis de glicose no sangue.
+
+Vegetais não amiláceos: Inclua uma variedade de vegetais não amiláceos em sua dieta, como folhas verdes (espinafre, alface), brócolis, couve-flor, abobrinha, cenoura, tomate, pepino e pimentão. Esses vegetais são baixos em carboidratos e ricos em nutrientes.
+
+Frutas: Frutas como maçãs, peras, bagas, laranjas e toranjas são boas opções de carboidratos complexos. Elas contêm fibras e têm um teor de açúcar natural mais moderado em comparação com outras frutas.
+
+Aveia: A aveia é uma excelente fonte de carboidratos complexos e fibras solúveis. Ela pode ser consumida como mingau, adicionada a smoothies ou usada em receitas de pães e bolos.
+
+Antonia:
+----------
+
+idade: 50 anos
+peso: 92,90 kilos
+altura: 1,68 metros
+sexo: feminino
+NATF: 0
+
+Objetivos de saúde: controle da glicose no sangue
+		    redução de gordura no figado
+		    controle de pressão arterial
+		    redução do peso
+
+Histórico médico: 
+
+Medicamentos: 
+
+Níveis de glicose no sangue:
+
+Preferências alimentares e restrições:
+
+==============================================================================
+CAUCULO:
+---------------------------
+Como se calcula diabetes?
+A fórmula para cálculo da glicemia média estimada é a seguinte: 
+	28,7 x A1C - 46.7 
+
+A American Diabetes Association (ADA) disponibiliza no site www.diabetes.org/professional/eAG a possibilidade de se obter, 
+a partir da A1C, os valores da glicemia média estimada (GME) e vice-versa
+===============================================================================
+
+Recursos do App:
+----------------------------
+	-registro de dados de exames  
+	-gráficos de tendência 
+	-dicas de saúde, 
+	-lembretes para medicações e consultas médicas,
+
+================================================================================
+Ferramentas e bibliotecas:
+---------------------------
+python 
+kivy e kivymd
+
+		    
