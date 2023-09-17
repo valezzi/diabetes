@@ -11,7 +11,7 @@ $hora = $_POST['hora'];
 $sql = "INSERT INTO controle_dt(GLICOSE,DATA,HORA) VALUES ('$vlglic','$data','$hora')";
 //mysqli_query($conexao, $sql ) or die("Erro ao tentar cadastrar registro");
 
-//echo "teste de registro";
+echo "teste de registro";
 
 //header('Location:../index2.html');
 

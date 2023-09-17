@@ -9,14 +9,12 @@
     <link rel="icon" href="img/etec.png" type="image/png" />  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <title> Controle Diabetes </title>
-	<?php include_once("./php/consulta_med.php"); ?>
-	<?php include_once("./php/consulta_pac.php"); ?>
   </head>
 
   <body>
     <section class="cabecalho">
       <div>
-        <a href="index2.html"> Registros Paciente/Medicamentos </a>
+		<a href="https://www.ubbonline.org.br/">Consulte um Profissional</a>
       </div>
     </section>
 	
@@ -26,30 +24,20 @@
         <div class="heading">
           <b class="titulo">Medicamentos</b>
         </div>
-		<ul class="list-group">
-			<li class="list-group-item list-group-item-primary">medicamento 1</li>
-			<li class="list-group-item list-group-item-secondary">medicamento 2</li>
-			<li class="list-group-item list-group-item-success">medicamento 3</li>
-		</ul>
-		  </br>  
-		  </br>
+		<br/>
+		<?php include_once("./php/consulta_med.php"); ?>
+		</br>  
 		  
 		  <div class="heading">
           <b class="titulo">Paciente</b>
         </div>
-		
-		<ul class="list-group">
-			<li class="list-group-item list-group-item-primary">Idade</li>
-			<li class="list-group-item list-group-item-secondary">Peso</li>
-			<li class="list-group-item list-group-item-success">Altura</li>
-			<li class="list-group-item list-group-item-success">Sexo</li>
-		</ul>
-		<script language="php">
-			include_once("./php/consulta_pac.php");
-		</script>
-		  </br>
-		  </br>
-		<a href="https://www.ubbonline.org.br/">Consulte um Profissional</a>
+		<br/>
+		<?php include_once("./php/consulta_pac.php"); ?>
+		</br> 
+	
+		</br>
+		</br>
+		<a href="index2.html"> Registros Paciente/Medicamentos </a>
       </div>
 	  
 	  <div class="actual-form4">

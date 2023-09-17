@@ -15,7 +15,7 @@
   <body>
     <section class="cabecalho">
       <div>
-        <a href="index.html">Controle </a>
+        <a href="index.php">Controle </a>
       </div>
     </section>
     
@@ -33,12 +33,12 @@
               
         <div class="input-wrap">
           <label class="input-label">Idade:</label>
-          <input name="IDADE" type="number" class="input-field" />
+          <input name="IDADE" type="text" class="input-field" />
 			  </div>
 
         <div class="input-wrap">
           <label class="input-label">Peso:</label>
-          <input name="PESO" type="number" class="input-field" />
+          <input name="PESO" type="text" class="input-field" />
 		</div>
 
         <div class="input-wrap">
@@ -49,20 +49,25 @@
 		<div class="input-wrap">
           <label class="input-label">Sexo:</label>
           <select name="SEXO" type="text" class="input-option">
-            <option value=""></option>
-            <option value="Feminino°">Feminino</option>
+			<option value=""></option>
+            <option value="Feminino">Feminino</option>
             <option value="Masculino">Masculino</option>
           </select>
         </div>
 
         <div class="btn">
-          <input id="enviar" name="enviar" type="submit"  value="Paciente" class="sign-btn" />
+          <input id="enviar" name="enviar" type="submit"  value="Paciente" class="sign-btn" onclick="msg()"/>
         </div>
 
         <div id="mensagem" class="popup">
           <div class="popup-content">
             <span class="close-button">&times;</span>
-            <p></p>
+            <p><script>
+				function msg() {
+				alert("registro realizado com sucesso");
+				}
+				</script>
+			</p>
           </div>
         </div>
 
@@ -70,7 +75,7 @@
 
     </form>
     
-	<form id="form-registro" name="MEDICAMENTO" action="./php/inserir_med.php" method="post" >
+	<form id="form-registro" name="MEDICAMENTO" action="./php/inserir_med.php" method="post">
       <div class="actual-form2">
 
         <div class="heading">
@@ -84,7 +89,7 @@
               
         <div class="input-wrap">
           <label class="input-label">Dosagem:</label>
-          <input name="DOSAGEM" type="number" class="input-field" />
+          <input name="DOSAGEM" type="text" class="input-field" />
 		</div>
 
         <div class="input-wrap">
@@ -98,7 +103,19 @@
         </div>
 
         <div class="btn">
-		  <input id="enviar" name="enviar" type="submit"  value="Medicamento" class="sign-btn" />
+		  <input id="enviar" name="enviar" type="submit"  value="Medicamento" class="sign-btn"  onclick="msg()"/>
+        </div>
+		
+		<div id="mensagem" class="popup">
+          <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <p><script>
+				function msg() {
+				alert("registro realizado com sucesso");
+				}
+				</script>
+			</p>
+          </div>
         </div>
 
       </div>
